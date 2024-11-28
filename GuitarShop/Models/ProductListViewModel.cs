@@ -7,6 +7,6 @@ namespace GuitarShop.Models
         public List<Category> Categories { get; set; }
         public List<Product> Products { get; set; }
         public string SelectedCategory { get; set; }
-        public string CheckACtiveCategory(string category) => category == SelectedCategory ? "active" : "";
+        public string CheckActiveCategory(string category) => category == SelectedCategory ? "active" : "";
     }
 }
